@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/xyz"
+        android:layout_marginTop="100dp"/>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26dp"
+        android:focusable="true"
+        android:hint="Enter Name"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:focusable="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/fpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="forgot Password..."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_alignRight="@id/editText2"
+        android:layout_below="@+id/editText2"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fpass"
+        android:layout_marginLeft="80dp"
+        android:text="Attempts Left:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:id="@+id/button"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="30dp"
+        android:background="@color/teal_200"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/teal_700"/>
+<!--<TextView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:id="@+id/text"-->
+<!--    android:textSize="15dp"-->
+<!--    android:text="if you don't have an account sign_up here "-->
+<!--    android:layout_alignRight="@+id/editText2"-->
+<!--    android:layout_below="@+id/textView2"-->
+<!--    android:textStyle="bold"-->
+<!--    />-->
+
+</RelativeLayout>

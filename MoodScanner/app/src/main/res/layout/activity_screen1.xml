@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen1"
+    android:background="@drawable/bg"
+    >
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/male"
+    android:src="@drawable/male_unselect"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="20dp"
+/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/female"
+        android:src="@drawable/female_unslelect"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan"
+        android:src="@drawable/start_scanning"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="455dp"
+        />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="560dp"
+        android:src="@drawable/share_us" />
+
+    <ImageView
+        android:id="@+id/feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="560dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/rate_us" />
+
+</RelativeLayout>

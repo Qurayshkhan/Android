@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--<RatingBar-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/r5"-->
+<!--        android:numStars="5"-->
+<!--        />-->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ratting"
+    android:textSize="40dp"
+    android:id="@id/text"
+    android:textStyle="bold"
+    style="@style/CardView.Dark"
+    android:textColor="@color/teal_200"
+    android:layout_centerHorizontal="true"
+    />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="4.5"
+        android:progressTint="#FFCC01"
+        android:id="@+id/rate"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Rate" />
+</RelativeLayout>

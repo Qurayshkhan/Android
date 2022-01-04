@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relitive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b1" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="b2" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="b3" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:text="b4" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dp"
+            android:text="b5" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:text="b6" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="600dp"
+            android:text="b7" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="600dp"
+            android:text="b8" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="600dp"
+            android:text="b9" />
+
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="600dp"
+            android:text="b0" />
+    </RelativeLayout>
+
+</HorizontalScrollView>
+
+</ScrollView>

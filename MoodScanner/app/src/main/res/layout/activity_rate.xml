@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rate"
+    android:background="@drawable/background">
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="4.5"
+        android:progressTint="#D2691E"
+        android:id="@+id/rate"
+        android:layout_marginTop="435dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/ratebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/rate_us" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/try_again"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

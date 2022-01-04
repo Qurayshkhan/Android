@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="40dp"
+        android:id="@+id/view"
+        />
+    <ProgressBar
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:id="@+id/progress"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/progress"
+        android:textSize="40dp"
+        android:id="@+id/view1"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:layout_below="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter time"
+        />
+
+</RelativeLayout>

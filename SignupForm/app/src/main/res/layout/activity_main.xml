@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="SIGN-UP"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:id="@+id/fname"
+        android:layout_marginTop="100dp"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:id="@+id/lname"
+        android:layout_marginTop="150dp"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:id="@+id/num"
+        android:layout_marginTop="200dp"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num"
+        android:hint="Enter Date"
+        android:inputType="datetime"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gr"
+        android:layout_below="@+id/dob">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/male"
+
+            android:layout_marginLeft="50dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/female"
+            android:layout_marginLeft="50dp"
+            />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/btn1"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        android:layout_below="@id/gr"
+        android:layout_centerHorizontal="true"
+    />
+</RelativeLayout>
